@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio of Junior Software Engineer, Mohammad Amairi"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammad Amairi | Junior Software Engineer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Font Awesome (for icons) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lightbox2 CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery and Lightbox2 JS (loaded before your own JS if needed) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+      defer
+    ></script>
+
+    <!-- Your JS file (deferred for performance) -->
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <!-- HEADER / NAVIGATION -->
+    <header>
+      <nav>
+        <div class="logo">
+          <span>MA</span>
+        </div>
+
+        <!-- Hamburger icon (shown on mobile) -->
+        <div class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#tic-tac-toe" class="nav-link">
+            <i class="fas fa-gamepad"></i> Challange Me
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <h1 class="glitch" data-text="Mohammad Amairi">Mohammad Amairi</h1>
+
+          <div class="profile-pic-container">
+            <div class="profile-pic">
+              <img src="ProfilePic.jpg" alt="Mohammad Amairi" />
+            </div>
+          </div>
+          <style>
+            .profile-pic-container {
+              display: flex;
+              justify-content: center;
+            }
+            .profile-pic-container img {
+              border-radius: 20%;
+              height: 220px;
+              width: 200px;
+              object-fit: cover;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+          </style>
+
+          <p class="subtitle">Junior Software Engineer and Mr student</p>
+          <p class="typing-effect">
+            I'm <span class="typed-text"></span
+            ><span class="cursor">&nbsp;</span>
+          </p>
+          <div class="resume-button-container">
+            <a
+              href="https://drive.google.com/file/d/1HZc8o0b8JrjokdHp90wjxZH5J2KzAOQ7/view"
+              target="_blank"
+              class="cta-btn resume-btn"
+            >
+              <i class="fas fa-file"></i> View My Resume
+            </a>
+          </div>
+
+          <div class="cta-buttons">
+            <a href="#projects" class="cta-btn primary">View My Work</a>
+            <a href="#contact" class="cta-btn secondary">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="about-section">
+        <div class="section-content">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hi! I’m
+                <strong style="color: var(--accent-color)">
+                  Mohammad Amairi
+                </strong>
+                – a Bachelor’s graduate in Computer Science and Engineering 🎓,
+                now pursuing a Master’s degree in Applied Data Science. I’m
+                passionate about building software that impacts people’s lives
+                and solves real-world problems.
+              </p>
+              <p><br />Who am I?</p>
+              <p>
+                I’m a problem-solver at heart, with hands-on experience from my
+                academic journey and practical projects, where I’ve applied
+                complex theories to real-world solutions. Whether working
+                independently or as part of a team, I bring precision,
+                creativity, and a love for collaboration to every project I take
+                on.
+              </p>
+              <p><br />What motivates me?</p>
+              <p>
+                I’m driven by new challenges, constantly learning and adapting.
+                My academic and professional experiences have shown me the value
+                of creating user-focused, efficient solutions that make a real
+                difference. I’m always looking to grow my skill set, take on
+                exciting projects, and connect with others who share my vision.
+              </p>
+              <div class="tech-stack">
+                <div class="tech-item">💻 software Development</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="skills-section">
+        <div class="section-content">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+                alt="Java Icon"
+              />
+              <h3>Java</h3>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+                alt="C# Icon"
+              />
+              <h3>C#</h3>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/python.png"
+                alt="Python Icon"
+              />
+              <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/html-5.png"
+                alt="HTML Icon"
+              />
+              <img
+                src="https://img.icons8.com/color/48/000000/css3.png"
+                alt="CSS Icon"
+              />
+              <h3>HTML/CSS</h3>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/javascript.png"
+                alt="JavaScript Icon"
+              />
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+              <img
+                src="https://img.icons8.com/color/48/000000/mysql-logo.png"
+                alt="MySQL Icon"
+              />
+              <h3>MySQL</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="projects-section">
+        <div class="section-content">
+          <h2 class="section-title">Featured Projects</h2>
+          <p style="text-align: center; margin-bottom: 2rem">
+            Take a closer look at some of my recent work. Each project is
+            crafted to solve real-world problems while embracing efficient
+            design and development practices.
+          </p>
+
+          <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project">
+                <h2>Aquacraft</h2>
+                <p class="project-tagline">Cutting-edge 3D Water Simulation</p>
+                <p>
+                  <strong>Built with: Unity & C#</strong><br />
+                  Dive into an immersive 3D water particle system that analyzes
+                  floods in the SMART VISUALIZER software. Experience realistic
+                  fluid mechanics and dynamic water flow – built for high
+                  performance and accuracy.
+                </p>
+                <!-- Image Gallery -->
+                <div class="image-gallery">
+                  <a
+                    href="aq1.jpg"
+                    data-lightbox="aquacraft"
+                    data-title="Aquacraft - Image 1"
+                  >
+                    <img src="aq1.jpg" alt="Project Image 1" />
+                  </a>
+                  <a
+                    href="aq2.jpg"
+                    data-lightbox="aquacraft"
+                    data-title="Aquacraft - Image 2"
+                  >
+                    <img src="aq2.jpg" alt="Project Image 2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project">
+                <h2>ClearInsight</h2>
+                <p class="project-tagline">Streamlined BIM Object Management</p>
+                <p>
+                  <strong>Built with: C# .NET</strong><br />
+                  Transform building information modeling with a powerful
+                  <em>Navisworks plugin</em> designed to unify data from
+                  multiple sources into a single, searchable format. Enjoy an
+                  intuitive UI that boosts efficiency for BIM professionals.
+                </p>
+                <!-- Image Gallery -->
+                <div class="image-gallery">
+                  <a
+                    href="ci1.jpg"
+                    data-lightbox="ClearInsight"
+                    data-title="ClearInsight - Image 1"
+                  >
+                    <img src="ci1.jpg" alt="Project Image 1" />
+                  </a>
+                  <a
+                    href="ci2.jpg"
+                    data-lightbox="ClearInsight"
+                    data-title="ClearInsight - Image 2"
+                  >
+                    <img src="ci2.jpg" alt="Project Image 2" />
+                  </a>
+                  <a
+                    href="ci3.jpg"
+                    data-lightbox="ClearInsight"
+                    data-title="ClearInsight - Image 3"
+                  >
+                    <img src="ci3.jpg" alt="Project Image 3" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project">
+                <h2>Pusb Project</h2>
+                <p class="project-tagline">
+                  Full-Stack Task Tracking & Time Management
+                </p>
+                <p>
+                  <strong>Built with: Java EE</strong><br />
+                  Centralize your workflow with a robust web app that simplifies
+                  task tracking and scheduling. Focused on user-centered design
+                  and streamlined productivity, this platform ensures no
+                  deadline slips through the cracks.
+                </p>
+                <!-- Image Gallery -->
+                <div class="image-gallery">
+                  <a href="p1.png" data-lightbox="p" data-title="p - Image 1">
+                    <img src="p1.png" alt="Project Image 1" />
+                  </a>
+                  <a href="p2.jpg" data-lightbox="p" data-title="p - Image 2">
+                    <img src="p2.jpg" alt="Project Image 2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+              <div class="project-info">
+                <h2>My Distance</h2>
+                <p class="project-tagline">
+                  Precision Measurement & Object Detection
+                </p>
+                <p>
+                  <strong>Built with: C Language</strong><br />
+                  Harness advanced computational geometry for accurate distance
+                  measurements. Ideal for robotics, automation, and security
+                  applications that require pinpoint precision and real-time
+                  object detection.
+                </p>
+                <!-- Image Gallery -->
+                <div class="image-gallery">
+                  <a href="d1.jpg" data-lightbox="d" data-title="d - Image 1">
+                    <img src="d1.jpg" alt="Project Image 1" />
+                  </a>
+                  <a href="d2.png" data-lightbox="d" data-title="d - Image 2">
+                    <img src="d2.png" alt="Project Image 2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="contact-section">
+        <div class="section-content">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-container">
+            <div class="contact-info">
+              <h3>Get in Touch</h3>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <span>Mohammadamairi1999@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <span>+46720499299</span>
+                </div>
+              </div>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/mohammadamairi/"
+                  class="social-icon"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/99Hive" class="social-icon"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Button to open chat -->
+      <button id="open-chat" class="open-chat-btn">💬 Chat with me</button>
+
+      <!-- Chatbot container -->
+      <div class="chatbot-container">
+        <!-- Header with a close button -->
+        <div class="chat-header">
+          <span>💬 Ask About Me</span>
+          <button id="close-chat">✖</button>
+        </div>
+
+        <!-- Body area to display messages -->
+        <div class="chat-body" id="chat-body">
+          <!-- Example initial bot message -->
+          <p class="bot-message">
+            Hello! I'm happy to answer questions about my experience, skills,
+            etc.
+          </p>
+        </div>
+
+        <!-- Input for user text + send button -->
+        <div class="chat-input-container">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your question..."
+          />
+          <button id="send-message">Send</button>
+        </div>
+      </div>
+
+      <!-- TIC-TAC-TOE SECTION -->
+      <section id="tic-tac-toe" class="tic-tac-toe-section">
+        <div class="section-content">
+          <h2 class="section-title">Can you beat me?</h2>
+          <div class="game-container">
+            <div class="game-board" id="game-board">
+              <!-- 9 cells for the board -->
+              <div class="cell" data-index="0"></div>
+              <div class="cell" data-index="1"></div>
+              <div class="cell" data-index="2"></div>
+              <div class="cell" data-index="3"></div>
+              <div class="cell" data-index="4"></div>
+              <div class="cell" data-index="5"></div>
+              <div class="cell" data-index="6"></div>
+              <div class="cell" data-index="7"></div>
+              <div class="cell" data-index="8"></div>
+            </div>
+            <div class="game-info">
+              <p id="status">Your turn!</p>
+              <button id="restart-button" class="restart-btn">
+                Restart Game
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 Mohammad Amairi.</p>
+      </div>
+    </footer>
+  </body>
+</html>
